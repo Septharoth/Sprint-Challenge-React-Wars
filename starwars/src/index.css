@@ -2,6 +2,41 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url('./images/sw-bg.jpg');
-  background-size: cover;
+  background-image: url('./images/rm-bg.jpg');
+  background-attachment: fixed;
+}
+
+.characterList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.character {
+  margin: 10px;
+}
+
+.left {
+  float: left;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  text-shadow: 1px 1px 5px #fff;
+  margin-left: 2%;
+}
+
+.right {
+  float: right;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  text-shadow: 1px 1px 5px #fff;
+  margin-right: 2%;
+}
+
+.curPage {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  text-shadow: 1px 1px 5px #fff;
 }
